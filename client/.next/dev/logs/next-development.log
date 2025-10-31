@@ -1,31 +1,181 @@
-[00:00:02.817] Server  LOG      ✓ Ready in 2.3s
-[00:00:14.465] Server  LOG      ○ Compiling / ...
-[00:00:15.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:24.587] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:00:25.053] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:31.530] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:42.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:44.372] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:54.179] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:26.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:27.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:28.923] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:29.791] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:35.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:36.526] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:44.802] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:47:45.762] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:51:19.362] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:51:20.607] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:27.365] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:34.130] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:40.213] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:58:41.329] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:02:03.557] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:04:30.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:04:31.885] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:07:14.499] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:07:15.451] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:07:16.624] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:09:58.342] Server  WARN     ⚠ Fast Refresh had to perform a full reload when \\Rentify\\client\\node_modules\\sonner\\dist\\index.mjs","ids":["toast","success","error"]}, \\Rentify\\client\\src\\components\\ui\\dropdown-menu.tsx","ids":["DropdownMenu","DropdownMenuTrigger","DropdownMenuContent","DropdownMenuItem"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[01:09:59.091] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:02.175] Server  LOG      ✓ Ready in 1833ms
+[00:00:04.209] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:09.128] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:00:09.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:08.504] Server  WARN     ⚠ Fast Refresh had to perform a full reload when \\Rentify\\client\\node_modules\\sonner\\dist\\index.mjs","ids":["toast","success","error"]}, \\Rentify\\client\\src\\components\\ui\\sheet.tsx","ids":["Sheet","SheetTrigger","SheetContent","SheetHeader","SheetTitle"]} changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:02:16.980] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:16.981] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:21.539] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:21.539] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:24.614] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:24.614] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:26.699] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:26.699] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:28.270] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:28.271] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:57.760] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:02:57.760] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:03:02.200] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:03:02.200] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:04:51.560] Server  ERROR    ⨯ ./src/components/Navbar.tsx
+Error:   × You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[C:\Work\Software\Vs Code\My Project\Rentify\client\src\components\Navbar.tsx:1:1]
+ 1 │ import React, { useState } from "react";
+   ·                 ────────
+ 2 │ import { Button } from "@/components/ui/button";
+ 3 │ import { Input } from "@/components/ui/input";
+ 3 │ import { Search, Menu } from "lucide-react";
+   ╰────
+
+Import trace for requested module:
+./src/components/Navbar.tsx
+./src/app/(nondashboard)/layout.tsx
+[00:04:51.851] Browser ERROR   ./src/components/Navbar.tsx
+Error:   × You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[C:\Work\Software\Vs Code\My Project\Rentify\client\src\components\Navbar.tsx:1:1]
+ 1 │ import React, { useState } from "react";
+   ·                 ────────
+ 2 │ import { Button } from "@/components/ui/button";
+ 3 │ import { Input } from "@/components/ui/input";
+ 3 │ import { Search, Menu } from "lucide-react";
+   ╰────
+
+Import trace for requested module:
+./src/components/Navbar.tsx
+./src/app/(nondashboard)/layout.tsx
+[00:04:54.751] Browser ERROR   ./src/components/Navbar.tsx
+Error:   × You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[C:\Work\Software\Vs Code\My Project\Rentify\client\src\components\Navbar.tsx:1:1]
+ 1 │ import React, { useState } from "react";
+   ·                 ────────
+ 2 │ import { Button } from "@/components/ui/button";
+ 3 │ import { Input } from "@/components/ui/input";
+ 3 │ import { Search, Menu } from "lucide-react";
+   ╰────
+
+Import trace for requested module:
+./src/components/Navbar.tsx
+./src/app/(nondashboard)/layout.tsx
+[00:04:55.269] Browser ERROR   ./src/components/Navbar.tsx
+Error:   × You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[C:\Work\Software\Vs Code\My Project\Rentify\client\src\components\Navbar.tsx:1:1]
+ 1 │ import React, { useState } from "react";
+   ·                 ────────
+ 2 │ import { Button } from "@/components/ui/button";
+ 3 │ import { Input } from "@/components/ui/input";
+ 3 │ import { Search, Menu } from "lucide-react";
+   ╰────
+
+Import trace for requested module:
+./src/components/Navbar.tsx
+./src/app/(nondashboard)/layout.tsx
+[00:04:55.667] Server  ERROR    ⨯ ./src/components/Navbar.tsx
+Error:   × You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[C:\Work\Software\Vs Code\My Project\Rentify\client\src\components\Navbar.tsx:1:1]
+ 1 │ import React, { useState } from "react";
+   ·                 ────────
+ 2 │ import { Button } from "@/components/ui/button";
+ 3 │ import { Input } from "@/components/ui/input";
+ 3 │ import { Search, Menu } from "lucide-react";
+   ╰────
+
+Import trace for requested module:
+./src/components/Navbar.tsx
+./src/app/(nondashboard)/layout.tsx
+[00:04:55.834] Browser ERROR   ./src/components/Navbar.tsx
+Error:   × You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[C:\Work\Software\Vs Code\My Project\Rentify\client\src\components\Navbar.tsx:1:1]
+ 1 │ import React, { useState } from "react";
+   ·                 ────────
+ 2 │ import { Button } from "@/components/ui/button";
+ 3 │ import { Input } from "@/components/ui/input";
+ 3 │ import { Search, Menu } from "lucide-react";
+   ╰────
+
+Import trace for requested module:
+./src/components/Navbar.tsx
+./src/app/(nondashboard)/layout.tsx
+[00:04:56.837] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[C:\Work\Software\Vs Code\My Project\Rentify\client\src\components\Navbar.tsx:1:1]
+ 1 │ import React, { useState } from "react";
+   ·                 ────────
+ 2 │ import { Button } from "@/components/ui/button";
+ 3 │ import { Input } from "@/components/ui/input";
+ 3 │ import { Search, Menu } from "lucide-react";
+   ╰────
+
+[00:04:56.984] Browser ERROR   ./src/components/Navbar.tsx
+Error:   × You're importing a component that needs `useState`. This React Hook only works in a Client Component. To fix, mark the file (or its parent) with the `"use client"` directive.
+  │
+  │  Learn more: https://nextjs.org/docs/app/api-reference/directives/use-client
+  │
+
+   ╭─[C:\Work\Software\Vs Code\My Project\Rentify\client\src\components\Navbar.tsx:1:1]
+ 1 │ import React, { useState } from "react";
+   ·                 ────────
+ 2 │ import { Button } from "@/components/ui/button";
+ 3 │ import { Input } from "@/components/ui/input";
+ 3 │ import { Search, Menu } from "lucide-react";
+   ╰────
+[00:04:57.655] Server  LOG      ○ Compiling /_error ...
+[00:06:08.789] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:09.009] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:10.481] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:06:11.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:16.656] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:16.656] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:21.248] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:21.248] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:24.864] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:24.864] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:39.598] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:39.598] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:42.090] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:42.090] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:48.347] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:06:48.347] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:08:48.898] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:08:48.898] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:10:57.366] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:10:57.366] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:11:04.628] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:05.814] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:10.565] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:11:10.565] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:11:13.882] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:11:13.882] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:11:53.091] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:11:53.091] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:12:00.116] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:12:00.116] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:16:04.208] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:16:04.208] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
