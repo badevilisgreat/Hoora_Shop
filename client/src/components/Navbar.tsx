@@ -30,14 +30,14 @@ const Navbar = () => {
         </a>
 
         {/* ===== CENTER: SEARCH BAR (desktop only) ===== */}
-        <div className="hidden md:flex items-center w-[280px] lg:w-[400px] relative">
+        {/* <div className="hidden md:flex items-center w-[280px] lg:w-[400px] relative">
           <Search className="absolute left-3 top-2.5 h-4 w-4 text-gray-400" />
           <Input
             type="text"
             placeholder="Search properties..."
             className="pl-9 bg-neutral-900 border-neutral-800 text-gray-200 placeholder:text-gray-500 focus-visible:ring-1 focus-visible:ring-neutral-700"
           />
-        </div>
+        </div> */}
 
         {/* ===== RIGHT: ACTION BUTTONS (desktop) ===== */}
         <div className="hidden sm:flex items-center gap-3">
