@@ -21,7 +21,7 @@ const Landing = () => {
 
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      {/* ===== Background Image ===== */}
+      {/* Background Image */}
       <Image
         src="/landing-splash.jpg"
         alt="Rentify Rental Platform Hero Section"
@@ -30,10 +30,10 @@ const Landing = () => {
         priority
       />
 
-      {/* Dark overlay for readability (sits above image, below content) */}
+      {/* Dark overlay for readability */}
       <div className="absolute inset-0 z-10 bg-black/45" />
 
-      {/* ===== Overlay Content ===== */}
+      {/* Overlay Content */}
       <div className="absolute inset-0 z-20 flex flex-col items-center justify-center px-4 text-center text-white">
         {/* Title */}
         <h1 className="mb-4 text-4xl font-extrabold md:text-6xl">
@@ -45,13 +45,13 @@ const Landing = () => {
           Discover apartments, houses, and flats for rent — all in one place.
         </p>
 
-        {/* ===== Search Bar (clickable & submit works) ===== */}
+        {/* Search Bar (square with rounded corners) */}
         <form onSubmit={onSubmit} className="w-full max-w-xl">
           <div
             role="search"
             aria-label="Property search"
             onClick={() => inputRef.current?.focus()}
-            className="group flex cursor-text items-center overflow-hidden rounded-full border border-white/20 bg-white/10 backdrop-blur-md shadow-lg transition hover:border-white/30"
+            className="group flex cursor-text items-center overflow-hidden rounded-xl border border-white/25 bg-white/10 backdrop-blur-md shadow-lg transition hover:border-white/35"
           >
             <div className="flex items-center px-3">
               <Search className="h-5 w-5 text-gray-300" aria-hidden />
@@ -67,13 +67,16 @@ const Landing = () => {
               value={q}
               onChange={(e) => setQ(e.target.value)}
               placeholder="Search properties, cities, or landmarks..."
-              className="h-11 flex-1 border-0 bg-transparent px-2 text-white placeholder:text-gray-300 focus-visible:outline-none focus-visible:ring-0"
+              className="h-12 flex-1 border-0 bg-transparent px-2 text-white placeholder:text-gray-300 focus-visible:outline-none focus-visible:ring-0"
               autoComplete="off"
             />
 
+            {/* optional thin divider to emphasize the square look */}
+            <span className="mx-2 hidden h-6 w-px bg-white/20 md:block" />
+
             <Button
               type="submit"
-              className="mr-1 rounded-full bg-white px-6 py-2 font-medium text-black transition hover:bg-gray-200"
+              className="m-1 rounded-lg bg-white px-5 py-2 font-medium text-black transition hover:bg-gray-200"
             >
               Search
             </Button>
@@ -81,7 +84,7 @@ const Landing = () => {
         </form>
       </div>
 
-      {/* ===== Footer ===== */}
+      {/* Footer */}
       <footer className="absolute bottom-0 left-0 right-0 z-20">
         <div className="bg-linear-to-t from-black/50 to-transparent">
           <div className="mx-auto max-w-6xl px-4 py-4 text-center text-sm text-gray-300">
