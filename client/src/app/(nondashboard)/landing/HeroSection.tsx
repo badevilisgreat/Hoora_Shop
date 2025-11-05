@@ -1,99 +1,90 @@
 "use client";
 
-import React, { useRef, useState, FormEvent } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import { Input } from "@/components/ui/input";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Search } from "lucide-react";
 
-const Landing = () => {
-  const [q, setQ] = useState("");
-  const inputRef = useRef<HTMLInputElement>(null);
-  const router = useRouter();
+const slides = [
+  { id: 1, image: "/hero-slide-1.png", alt: "Hero Slide 1" },
+  { id: 2, image: "/hero-slide-2.png", alt: "Hero Slide 2" },
+  { id: 3, image: "/hero-slide-3.png", alt: "Hero Slide 3" },
+];
 
-  const onSubmit = (e: FormEvent) => {
-    e.preventDefault();
-    const query = q.trim();
-    if (!query) return;
-    router.push(`/search?q=${encodeURIComponent(query)}`);
+export default function HeroCarousel() {
+  const [current, setCurrent] = useState(0);
+
+  // Auto-slide every 2 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % slides.length);
+    }, 2000);
+    return () => clearInterval(interval);
+  }, []);
+
+  const goToPrev = () => {
+    setCurrent((prev) => (prev === 0 ? slides.length - 1 : prev - 1));
+  };
+
+  const goToNext = () => {
+    setCurrent((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
   };
 
   return (
-    <section className="relative h-screen w-full overflow-hidden">
-      {/* Background Image */}
-      <Image
-        src="/landing-splash.jpg"
-        alt="Rentify Rental Platform Hero Section"
-        fill
-        className="z-0 object-cover object-center"
-        priority
-      />
-
-      {/* Dark overlay for readability */}
-      <div className="absolute inset-0 z-10 bg-black/45" />
-
-      {/* Overlay Content */}
-      <div className="absolute inset-0 z-20 flex flex-col items-center justify-center px-4 text-center text-white">
-        {/* Title */}
-        <h1 className="mb-4 text-4xl font-extrabold md:text-6xl">
-          Find Your Perfect Rental Home
-        </h1>
-
-        {/* Subtitle */}
-        <p className="mb-8 max-w-2xl text-lg text-gray-200 md:text-xl">
-          Discover apartments, houses, and flats for rent — all in one place.
-        </p>
-
-        {/* Search Bar (square with rounded corners) */}
-        <form onSubmit={onSubmit} className="w-full max-w-xl">
-          <div
-            role="search"
-            aria-label="Property search"
-            onClick={() => inputRef.current?.focus()}
-            className="group flex cursor-text items-center overflow-hidden rounded-xl border border-white/25 bg-white/10 backdrop-blur-md shadow-lg transition hover:border-white/35"
-          >
-            <div className="flex items-center px-3">
-              <Search className="h-5 w-5 text-gray-300" aria-hidden />
-            </div>
-
-            <label htmlFor="search" className="sr-only">
-              Search properties, cities, or landmarks
-            </label>
-            <Input
-              id="search"
-              ref={inputRef}
-              type="search"
-              value={q}
-              onChange={(e) => setQ(e.target.value)}
-              placeholder="Search properties, cities, or landmarks..."
-              className="h-12 flex-1 border-0 bg-transparent px-2 text-white placeholder:text-gray-300 focus-visible:outline-none focus-visible:ring-0"
-              autoComplete="off"
+    <section className="relative w-full h-[80vh] md:h-[90vh] overflow-hidden mt-[70px]">
+      {/* === SLIDER CONTAINER === */}
+      <div
+        className="flex transition-transform duration-[700ms] ease-in-out"
+        style={{
+          transform: `translateX(-${current * 100}%)`,
+        }}
+      >
+        {slides.map((slide) => (
+          <div key={slide.id} className="relative w-full flex-shrink-0">
+            <Image
+              src={slide.image}
+              alt={slide.alt}
+              fill
+              className="object-cover object-center"
+              priority={slide.id === 1}
             />
-
-            {/* optional thin divider to emphasize the square look */}
-            <span className="mx-2 hidden h-6 w-px bg-white/20 md:block" />
-
-            <Button
-              type="submit"
-              className="m-1 rounded-lg bg-white px-5 py-2 font-medium text-black transition hover:bg-gray-200"
-            >
-              Search
-            </Button>
           </div>
-        </form>
+        ))}
       </div>
 
-      {/* Footer */}
-      <footer className="absolute bottom-0 left-0 right-0 z-20">
-        <div className="bg-linear-to-t from-black/50 to-transparent">
-          <div className="mx-auto max-w-6xl px-4 py-4 text-center text-sm text-gray-300">
-            © {new Date().getFullYear()} <span className="font-medium text-white">Rentify</span>. All rights reserved.
-          </div>
-        </div>
-      </footer>
+      {/* === ARROWS === */}
+      <Button
+        variant="ghost"
+        size="icon"
+        onClick={goToPrev}
+        className="absolute top-1/2 left-4 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white rounded-full z-20 backdrop-blur-sm"
+      >
+        <ChevronLeft className="h-6 w-6" />
+      </Button>
+
+      <Button
+        variant="ghost"
+        size="icon"
+        onClick={goToNext}
+        className="absolute top-1/2 right-4 -translate-y-1/2 bg-black/40 hover:bg-black/70 text-white rounded-full z-20 backdrop-blur-sm"
+      >
+        <ChevronRight className="h-6 w-6" />
+      </Button>
+
+      {/* === DOT INDICATORS === */}
+      <div className="absolute bottom-5 left-1/2 -translate-x-1/2 flex gap-3 z-20">
+        {slides.map((_, index) => (
+          <button
+            key={index}
+            onClick={() => setCurrent(index)}
+            className={`w-3 h-3 rounded-full transition-all duration-300 ${
+              current === index
+                ? "bg-white scale-110 shadow-md"
+                : "bg-gray-400/70 hover:bg-gray-200"
+            }`}
+          />
+        ))}
+      </div>
     </section>
   );
-};
-
-export default Landing;
+}

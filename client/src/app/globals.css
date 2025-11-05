@@ -112,6 +112,47 @@
   --sidebar-ring: hsl(217.2 91.2% 59.8%);
 }
 
+/* ---------------- Offer Strip Animation ---------------- */
+
+.offer-strip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f5b700; /* HOORA Yellow */
+  color: #000;
+  font-size: 0.875rem; /* text-sm */
+  font-weight: 500;
+  padding: 6px 0;
+  overflow: hidden;
+  z-index: 50;
+}
+.offer-strip-content {
+  display: inline-flex;
+  white-space: nowrap;
+  user-select: none;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 80s linear infinite;
+  will-change: transform;
+}
+
+
+.nav-text {
+  font-family: "Inter", "Poppins", sans-serif;
+  letter-spacing: 0.3px;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

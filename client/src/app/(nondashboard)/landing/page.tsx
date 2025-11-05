@@ -1,12 +1,10 @@
-import React from "react";
-import HeroSection from "./HeroSection";
+import HeroCarousel from "./HeroCarousel"; // or HeroSection if you kept that name
 
-const Landing = () => {
+export default function LandingPage() {
   return (
     <div>
-      <HeroSection />
+      <HeroCarousel />
+      {/* You can later add more sections below */}
     </div>
   );
-};
-
-export default Landing;
+}

@@ -1,20 +1,13 @@
-import Navbar from '@/components/Navbar';
-import React from 'react';
+import OfferStrip from "@/components/offer-strip";
+import Navbar from "@/components/Navbar";
 
-//const NAVBAR_HEIGHT = 55; // or whatever height in px (e.g. 64 for h-16)
-
-const Layout = ({ children }: { children: React.ReactNode }) => {
+export default function LandingLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className="h-full w-full">
+    <div className="min-h-screen w-full flex flex-col">
+      <OfferStrip />
       <Navbar />
-      <main
-        className="h-full flex w-full flex-col"
-        //style={{ paddingTop: `${NAVBAR_HEIGHT}px` }}
-      >
-        {children}
-      </main>
+      {/* Adjusted padding to match actual fixed height */}
+      <main className="flex-1 pt-[calc(30px+60px)]">{children}</main>
     </div>
   );
-};
-
-export default Layout;
+}

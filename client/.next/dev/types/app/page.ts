@@ -1,4 +1,4 @@
-// File: C:\Work\Software\Vs Code\My Project\Rentify\client\src\app\page.tsx
+// File: C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\page.tsx
 import * as entry from '../../../../src/app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
