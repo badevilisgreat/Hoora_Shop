@@ -1,10 +1,13 @@
-import HeroCarousel from "./HeroCarousel"; // or HeroSection if you kept that name
+import HeroCarousel from "./HeroCarousel";
+import ShopByCategory from "./ShopByCategory";
+import BestSellers from "./BestSellers";
 
 export default function LandingPage() {
   return (
-    <div>
+    <>
       <HeroCarousel />
-      {/* You can later add more sections below */}
-    </div>
+      <ShopByCategory />
+      <BestSellers />
+    </>
   );
 }
