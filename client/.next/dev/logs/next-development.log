@@ -1,337 +1,873 @@
-[00:00:02.510] Server  LOG      ✓ Ready in 2.2s
-[00:00:10.423] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.017] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:15.170] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:41.025] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:41.200] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:01:45.074] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+[00:00:02.252] Server  LOG      ✓ Ready in 1909ms
+[00:00:13.824] Server  LOG      ○ Compiling /landing ...
+[00:00:16.954] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.660] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.847] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.848] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.848] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.848] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.848] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.848] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.848] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:22.848] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:40.965] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:15:41.176] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:41.176] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:41.176] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:41.176] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:41.176] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:41.176] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:41.176] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:15:41.176] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:52.298] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:52.507] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:52.507] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:52.507] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:18:52.507] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:19.987] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:20.216] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:20.216] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:20.216] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:19:20.216] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:31.236] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:20:31.237] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:45.074] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Check the render method of `LandingPage`.
+[00:20:31.848] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:20:32.405] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:32.704] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:45.860] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Check the render method of `LandingPage`.
+[00:20:48.032] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:48.498] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:48.498] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:48.498] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:48.498] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:50.855] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:51.023] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:51.023] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:51.023] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:20:51.023] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:22.417] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:46.051] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Check the render method of `LandingPage`.
+[00:21:23.245] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[00:21:23.747] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:23.995] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:46.052] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Check the render method of `LandingPage`.
+[00:21:27.781] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:21:28.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:32.913] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:32.913] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:32.913] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:32.913] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:32.913] Browser WARN    Image with src "/hero-slide-2.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:21:34.869] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:35.076] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:35.076] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:35.076] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:21:35.076] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:47.667] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/page.tsx
+Error:   × Expression expected
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·     ─
+ 14 │   );
+ 15 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·      ──
+ 14 │   );
+ 15 │ }
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:48.046] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Caused by:
+    Syntax Error
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:48.046] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Import trace for requested module:
+./src/app/(nondashboard)/landing/page.tsx
+[00:24:48.419] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx
+Error:   × Expression expected
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·     ─
+ 14 │   );
+ 15 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·      ──
+ 14 │   );
+ 15 │ }
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:48.428] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Caused by:
+    Syntax Error
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:49.072] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Import trace for requested module:
+./src/app/(nondashboard)/landing/page.tsx
+[00:24:49.221] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/page.tsx
+Error:   × Expression expected
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·     ─
+ 14 │   );
+ 15 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·      ──
+ 14 │   );
+ 15 │ }
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:49.073] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Caused by:
+    Syntax Error
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:49.754] Browser ERROR   uncaughtError: Error: Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Import trace for requested module:
+./src/app/(nondashboard)/landing/page.tsx
+[00:24:49.522] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx
+Error:   × Expression expected
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·     ─
+ 14 │   );
+ 15 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·      ──
+ 14 │   );
+ 15 │ }
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
+Caused by:
+    Syntax Error
 
-[00:01:49.784] Browser ERROR   uncaughtError: Error: Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Import trace for requested module:
+./src/app/(nondashboard)/landing/page.tsx
+[00:24:49.522] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx
+Error:   × Expression expected
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·     ─
+ 14 │   );
+ 15 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·      ──
+ 14 │   );
+ 15 │ }
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
+Caused by:
+    Syntax Error
 
-[00:01:50.050] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Import trace for requested module:
+./src/app/(nondashboard)/landing/page.tsx
+[00:24:50.035] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expression expected
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·     ─
+ 14 │   );
+ 15 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·      ──
+ 14 │   );
+ 15 │ }
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:50.050] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:50.051] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 |
-  4 | export default function LandingPage() {
-  5 |   return (
+Caused by:
+    Syntax Error
+[00:24:50.416] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx
+Error:   × Expression expected
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·     ─
+ 14 │   );
+ 15 │ }
+    ╰────
+  × Unterminated regexp literal
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\page.tsx:13:1]
+ 10 │       <ShopByCategory />
+ 11 │       <BestSellers />
+ 12 │       <KnowYourProducts
+ 13 │     </>
+    ·      ──
+ 14 │   );
+ 15 │ }
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:01:50.517] Server  LOG      ○ Compiling /_error ...
-[00:02:13.263] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:13.269] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:17.257] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:17.260] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:02:18.693] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:02:18.713] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:02:19.956] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:02:21.039] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:21.039] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:21.039] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:02:21.039] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:51.837] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:52.029] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:52.029] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:52.029] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:52.029] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:41:44.595] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 | import BestSellers from "./sections/BestSellers";
-  4 |
-  5 | export default function LandingPage() {
+Caused by:
+    Syntax Error
+[00:24:51.374] Server  LOG      ○ Compiling /_error ...
+[00:24:52.015] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:24:53.054] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:24:54.556] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:24:58.399] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:58.399] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:58.399] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:58.399] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:58.399] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:58.399] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:58.399] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:24:58.399] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:18.501] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:30:18.718] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:18.719] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:18.719] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:18.719] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:18.719] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:18.719] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:18.719] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:30:18.719] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:12.087] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:13.498] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:43:13.699] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:13.699] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:13.699] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:13.699] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:14.807] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:14.807] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:14.807] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:43:14.807] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:48.019] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:22:48.248] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:48.248] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:48.248] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:48.248] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:48.248] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:48.248] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:48.248] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:48.248] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:53.943] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:22:54.150] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:54.150] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:54.150] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:54.150] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:54.150] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:54.150] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:54.150] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:22:54.150] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:14.441] Browser WARN    Image with src "/video-thumb-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:14.441] Browser WARN    Image with src "/video-thumb-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:14.441] Browser WARN    Image with src "/video-thumb-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:23:14.441] Browser WARN    Image with src "/video-thumb-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:46.432] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[04:25:50.042] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[04:25:50.505] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:25:50.736] Browser WARN    Image with src "/video-thumb-5.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:50.736] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:50.736] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:50.736] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:50.736] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:50.736] Browser WARN    Image with src "/video-thumb-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:50.736] Browser WARN    Image with src "/video-thumb-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:50.736] Browser WARN    Image with src "/video-thumb-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:25:50.736] Browser WARN    Image with src "/video-thumb-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:32:06.223] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:44.873] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 | import BestSellers from "./sections/BestSellers";
-  4 |
-  5 | export default function LandingPage() {
+Caused by:
+    Syntax Error
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:44.891] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 | import BestSellers from "./sections/BestSellers";
-  4 |
-  5 | export default function LandingPage() {
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:32:06.457] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:44.892] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:3:1
-Module not found: Can't resolve './sections/BestSellers'
-  1 | import HeroCarousel from "./HeroCarousel";
-  2 | import ShopByCategory from "./sections/ShopByCategory";
-> 3 | import BestSellers from "./sections/BestSellers";
-    | ^
-  4 |
-  5 | export default function LandingPage() {
-  6 |   return (
+Caused by:
+    Syntax Error
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:44.892] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 | import BestSellers from "./sections/BestSellers";
-  4 |
-  5 | export default function LandingPage() {
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:32:06.457] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:44.892] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:3:1
-Module not found: Can't resolve './sections/BestSellers'
-  1 | import HeroCarousel from "./HeroCarousel";
-  2 | import ShopByCategory from "./sections/ShopByCategory";
-> 3 | import BestSellers from "./sections/BestSellers";
-    | ^
-  4 |
-  5 | export default function LandingPage() {
-  6 |   return (
+Caused by:
+    Syntax Error
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:45.305] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 | import BestSellers from "./sections/BestSellers";
-  4 |
-  5 | export default function LandingPage() {
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:32:06.895] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:45.512] Browser ERROR   uncaughtError: Error: Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 | import BestSellers from "./sections/BestSellers";
-  4 |
-  5 | export default function LandingPage() {
+Caused by:
+    Syntax Error
 
-https://nextjs.org/docs/messages/module-not-found
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:32:06.935] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
 
-[00:41:46.054] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:2:1
-Module not found: Can't resolve './sections/ShopByCategory'
-  1 | import HeroCarousel from "./HeroCarousel";
-> 2 | import ShopByCategory from "./sections/ShopByCategory";
-    | ^
-  3 | import BestSellers from "./sections/BestSellers";
-  4 |
-  5 | export default function LandingPage() {
+Caused by:
+    Syntax Error
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:46.054] Browser ERROR   ./src/app/(nondashboard)/landing/page.tsx:3:1
-Module not found: Can't resolve './sections/BestSellers'
-  1 | import HeroCarousel from "./HeroCarousel";
-  2 | import ShopByCategory from "./sections/ShopByCategory";
-> 3 | import BestSellers from "./sections/BestSellers";
-    | ^
-  4 |
-  5 | export default function LandingPage() {
-  6 |   return (
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:32:07.302] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
 
-https://nextjs.org/docs/messages/module-not-found
-[00:41:47.619] Server  LOG      ○ Compiling /_error ...
-[00:41:58.079] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:41:59.111] Server  WARN     ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:42:00.774] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/product-1.jpg" "received" null
-[00:42:00.775] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/product-2.jpg" "received" null
-[00:42:01.669] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/product-3.jpg" "received" null
-[00:42:01.670] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/product-4.jpg" "received" null
-[00:42:01.990] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:42:03.043] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:03.043] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:03.043] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:03.043] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:12.301] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:12.301] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:12.301] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:42:12.301] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:51:04.481] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:51:04.675] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:51:04.675] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:51:04.675] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:51:04.675] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:51:04.675] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:51:04.675] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:51:04.675] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:51:04.675] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:54.058] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:53:54.241] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:54.241] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:54.241] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:54.241] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:54.241] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:54.241] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:54.241] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:53:54.241] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:03:37.311] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:03:37.510] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:03:37.510] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:03:37.510] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:03:37.510] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:03:37.510] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:03:37.510] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:03:37.510] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:03:37.510] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:54.909] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:14:55.140] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:55.140] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:55.140] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:55.140] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:55.140] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:55.140] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:55.140] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:14:55.140] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:06.120] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:20:06.320] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:06.320] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:06.320] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:06.320] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:06.320] Browser WARN    Image with src "/product-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:06.320] Browser WARN    Image with src "/product-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:06.320] Browser WARN    Image with src "/product-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:20:06.320] Browser WARN    Image with src "/product-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+
+Caused by:
+    Syntax Error
+[04:32:08.415] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+Caused by:
+    Syntax Error
+[04:32:09.237] Server  LOG      ○ Compiling /_error ...
+[04:32:14.199] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[04:32:14.304] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+Caused by:
+    Syntax Error
+[04:32:17.600] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:32:17.768] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:32:17.768] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:32:17.907] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:32:18.113] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:32:18.118] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:32:18.372] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[04:32:19.282] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+Caused by:
+    Syntax Error
+[04:32:21.003] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+
+Caused by:
+    Syntax Error
+[04:32:21.121] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × Expected '</', got ')'
+    ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:51:1]
+ 48 │                 transform: `translateX(-${index * (100 / 4)}%)`,
+ 49 │               }}
+ 50 │             >
+ 51 │               {videos.concat(videos.slice(0, 4))).map((v, i) => (
+    ·                                                 ─
+ 52 │                 <div
+ 53 │                   key={`${v.id}-${i}`}
+ 53 │                   className="
+    ╰────
+
+Caused by:
+    Syntax Error
+[04:34:01.749] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:34:03.074] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:34:04.081] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:34:05.435] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[04:34:05.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:34:06.029] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:06.030] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:06.030] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:34:06.030] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:37:54.106] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[04:38:39.265] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[04:38:39.784] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:38:40.015] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <LoadingBoundary name="landing/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/landing" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+              <SegmentViewNode type="page" pagePath="(nondashbo...">
+                <SegmentTrieNode>
+                <LandingPage>
+                  <HeroCarousel>
+                  <ShopByCategory>
+                  <BestSellers>
+                  <LandingPage>
+                    <KnowYourProducts>
+                      <section className="py-16 bg-[...">
+                        <div className="mx-auto ma...">
+                          <h2>
+                          <div className="relative">
+                            <Button>
+                            <div className="overflow-h...">
+                              <div className="flex gap-4..." style={{...}}>
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                                <div
++                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] sm..."}
+-                                 className={"   flex-shrink-0   w-[88%] sm:w-[calc(50%-0.5rem)] md:w-[calc(25%-0.75r..."}
+                                >
+                                  <div className="relative">
+                                    <Card>
+                                    <button
+                                      aria-label="Play video"
++                                     className={"\r\n                        absolute left-1/2 -translate-x-1/2\r\n ..."}
+-                                     className={"   absolute left-1/2 -translate-x-1/2   bottom-0 translate-y-1/2   ..."}
+                                    >
+                            ...
+              ...
+            ...
+
+[04:38:40.015] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:38:40.016] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:38:40.016] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:38:40.016] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:41:33.951] Browser LOG     Play video 4
+[04:44:27.935] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[04:48:32.605] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[04:48:48.423] Browser LOG     play video 5
+[04:54:05.739] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+     ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:129:1]
+ 126 │     </section>
+ 127 │   );
+ 128 │ }
+ 129 │ "use client";
+     · ─────────────
+ 130 │ 
+ 131 │ import Image from "next/image";
+ 131 │ import { useEffect, useMemo, useState } from "react";
+     ╰────
+
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:54:05.763] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+     ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:129:1]
+ 126 │     </section>
+ 127 │   );
+ 128 │ }
+ 129 │ "use client";
+     · ─────────────
+ 130 │ 
+ 131 │ import Image from "next/image";
+ 131 │ import { useEffect, useMemo, useState } from "react";
+     ╰────
+
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:54:06.229] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+     ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:129:1]
+ 126 │     </section>
+ 127 │   );
+ 128 │ }
+ 129 │ "use client";
+     · ─────────────
+ 130 │ 
+ 131 │ import Image from "next/image";
+ 131 │ import { useEffect, useMemo, useState } from "react";
+     ╰────
+
+[04:54:06.292] Server  ERROR    ⨯ ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+     ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:129:1]
+ 126 │     </section>
+ 127 │   );
+ 128 │ }
+ 129 │ "use client";
+     · ─────────────
+ 130 │ 
+ 131 │ import Image from "next/image";
+ 131 │ import { useEffect, useMemo, useState } from "react";
+     ╰────
+
+Import trace for requested module:
+./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+./src/app/(nondashboard)/landing/page.tsx
+[04:54:06.296] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+     ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:129:1]
+ 126 │     </section>
+ 127 │   );
+ 128 │ }
+ 129 │ "use client";
+     · ─────────────
+ 130 │ 
+ 131 │ import Image from "next/image";
+ 131 │ import { useEffect, useMemo, useState } from "react";
+     ╰────
+[04:54:06.554] Browser ERROR   uncaughtError: ModuleBuildError: Module build failed (from ./node_modules/next/dist/build/webpack/loaders/next-swc-loader.js):
+Error:   × The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+     ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:129:1]
+ 126 │     </section>
+ 127 │   );
+ 128 │ }
+ 129 │ "use client";
+     · ─────────────
+ 130 │ 
+ 131 │ import Image from "next/image";
+ 131 │ import { useEffect, useMemo, useState } from "react";
+     ╰────
+
+[04:54:07.411] Browser ERROR   ./src/app/(nondashboard)/landing/KnowYourProducts.tsx
+Error:   × The "use client" directive must be placed before other expressions. Move it to the top of the file to resolve this issue.
+     ╭─[C:\Users\rahul\Pictures\Hoora\Hoora\client\src\app\(nondashboard)\landing\KnowYourProducts.tsx:129:1]
+ 126 │     </section>
+ 127 │   );
+ 128 │ }
+ 129 │ "use client";
+     · ─────────────
+ 130 │ 
+ 131 │ import Image from "next/image";
+ 131 │ import { useEffect, useMemo, useState } from "react";
+     ╰────
+[04:54:57.913] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:54:58.394] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:54:59.058] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:54:59.614] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:55:00.266] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[04:55:01.231] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[04:55:01.600] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:55:01.797] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:55:01.797] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:55:01.797] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:55:01.797] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[04:55:12.939] Browser LOG     play video 5
+[04:55:13.390] Browser LOG     play video 1
+[04:55:13.715] Browser LOG     play video 1
+[04:55:14.047] Browser LOG     play video 2
+[04:55:14.448] Browser LOG     play video 2
+[04:55:19.756] Browser LOG     play video 5
+[04:55:20.090] Browser LOG     play video 1
+[04:55:20.389] Browser LOG     play video 4

@@ -1,6 +1,7 @@
 import HeroCarousel from "./HeroCarousel";
 import ShopByCategory from "./ShopByCategory";
 import BestSellers from "./BestSellers";
+import KnowYourProducts from "./KnowYourProducts";
 
 export default function LandingPage() {
   return (
@@ -8,6 +9,7 @@ export default function LandingPage() {
       <HeroCarousel />
       <ShopByCategory />
       <BestSellers />
+      <KnowYourProducts />
     </>
   );
 }
