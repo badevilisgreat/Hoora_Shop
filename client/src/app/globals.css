@@ -162,6 +162,11 @@
   scrollbar-width: none;
 }
 
+/* CSS for smooth marquee animation */
+.hover\:animate-none:hover {
+  animation-play-state: paused; /* Pause animation on hover */
+}
+
 
 @layer base {
   * {

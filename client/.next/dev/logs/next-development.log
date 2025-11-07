@@ -1,19 +1,248 @@
-[00:00:02.910] Server  LOG      ✓ Ready in 2.4s
-[00:00:06.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:14.903] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:20.441] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
-[00:00:20.778] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:20.970] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.970] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.971] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:20.971] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:20.004] Browser WARN    Image with src "/product-1.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:09:20.004] Browser WARN    Image with src "/product-2.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:09:20.004] Browser WARN    Image with src "/product-3.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:09:20.004] Browser WARN    Image with src "/product-4.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
-[00:09:33.705] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
-[00:09:34.162] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:09:34.424] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:03.095] Server  LOG      ✓ Ready in 2.5s
+[00:00:07.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.434] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[00:00:17.773] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.984] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:17.984] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:17.984] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:17.984] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:26.676] Browser LOG     play video 4
+[00:00:27.017] Browser LOG     play video 4
+[00:00:27.230] Browser LOG     play video 4
+[00:00:28.196] Browser LOG     play video 4
+[00:00:28.358] Browser LOG     play video 4
+[00:00:28.582] Browser LOG     play video 4
+[00:02:42.431] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/first.jpg" "received" null
+[00:02:52.942] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/first.jpg" "received" null
+[00:02:53.408] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:53.628] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:53.628] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:53.628] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:53.628] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:03:20.932] Browser LOG     play video 5
+[00:03:21.160] Browser LOG     play video 5
+[00:03:21.458] Browser LOG     play video 5
+[00:03:21.801] Browser LOG     play video 5
+[00:50:46.180] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:46.404] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:46.404] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:46.404] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:46.404] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:50:56.395] Browser LOG     play video 1
+[00:52:56.948] Browser WARN    Image with src "/video-thumb-3.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:56.948] Browser WARN    Image with src "/video-thumb-3.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:52:56.948] Browser WARN    Image with src "/video-thumb-1.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:56.948] Browser WARN    Image with src "/video-thumb-1.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:52:56.948] Browser WARN    Image with src "/video-thumb-2.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:56.948] Browser WARN    Image with src "/video-thumb-2.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:52:56.948] Browser WARN    Image with src "/video-thumb-4.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:56.948] Browser WARN    Image with src "/video-thumb-4.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:52:56.948] Browser WARN    Image with src "/first.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:52:56.948] Browser WARN    Image with src "/first.png" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[00:58:01.500] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:01.718] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:01.718] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:01.718] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:58:01.718] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:59:32.564] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[00:59:32.635] Browser WARN    Image with src "/video-thumb-1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:59:39.850] Browser LOG     play video 4
+[00:59:51.386] Browser LOG     play video 4
+[00:59:53.742] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[00:59:53.808] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[00:59:54.666] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[00:59:57.272] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[01:00:06.348] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:06.585] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:06.585] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:06.585] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:06.585] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:06.648] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[01:00:07.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:08.501] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[01:00:16.840] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:16.840] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:16.840] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:16.840] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:00:16.840] Browser WARN    Image with src "/video-thumb-1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:02:02.901] Browser LOG     play video 3
+[01:02:03.378] Browser LOG     play video 3
+[01:02:05.684] Browser LOG     play video 2
+[01:02:06.120] Browser LOG     play video 2
+[01:02:19.931] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/first.jpg" "received" null
+[01:02:24.096] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/first.jpg" "received" null
+[01:02:24.589] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:24.779] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/first.jpg" "received" null
+[01:02:24.837] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:24.837] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:24.837] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:24.837] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:25.248] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:02:25.946] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:25.947] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:25.947] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:25.947] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:02:26.777] Browser LOG     play video 5
+[01:02:27.342] Browser LOG     play video 5
+[01:02:27.745] Browser LOG     play video 5
+[01:04:41.898] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[01:04:45.222] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[01:04:45.710] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:45.891] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/video-thumb-5.jpg" "received" null
+[01:04:45.944] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:04:45.944] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:04:45.944] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:04:45.944] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:04:46.370] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:04:46.947] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:04:46.947] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:04:46.947] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:04:46.947] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:50.925] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:51.155] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:51.155] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:51.155] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:51.155] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:08:51.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:08:54.138] Browser LOG     play video 1
+[01:08:56.829] Browser LOG     play video 4
+[01:08:57.264] Browser LOG     play video 4
+[01:09:03.013] Browser LOG     play video 3
+[01:09:03.421] Browser LOG     play video 3
+[01:09:03.862] Browser LOG     play video 4
+[01:09:04.263] Browser LOG     play video 4
+[01:09:04.529] Browser LOG     play video 4
+[01:09:04.929] Browser LOG     play video 1
+[01:09:05.252] Browser LOG     play video 1
+[01:09:05.704] Browser LOG     play video 2
+[01:09:06.530] Browser LOG     play video 2
+[01:09:07.371] Browser LOG     play video 2
+[01:09:08.104] Browser LOG     play video 2
+[01:11:30.190] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:30.190] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:30.190] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:30.190] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:48.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:48.557] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:48.557] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:48.557] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:48.557] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:48.958] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:49.945] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:49.946] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:49.946] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:49.946] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:50.174] Browser LOG     play video 1
+[01:11:58.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:58.440] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:58.440] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:58.440] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:58.440] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:58.822] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:11:59.940] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:59.940] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:59.940] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:11:59.940] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:12.216] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:12.440] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:12.440] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:12.440] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:12.440] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:12.801] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:13.943] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:13.943] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:13.943] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:13.943] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:14.794] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:14.979] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:14.979] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:14.979] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:14.979] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:25.248] Browser WARN    Image with src "/video-thumb-1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:12:27.320] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:27.514] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:27.514] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:27.514] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:27.514] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:27.944] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:32.154] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:32.154] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:32.154] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:32.154] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:32.154] Browser WARN    Image with src "/video-thumb-1.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[01:12:34.375] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:34.567] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:34.567] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:34.567] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:34.567] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:35.243] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:35.446] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:35.446] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:35.446] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:35.446] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:40.007] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:12:40.209] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:40.210] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:40.210] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:12:40.210] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:00.484] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:00.687] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:00.687] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:00.687] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:00.687] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:03.336] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:13:03.524] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:03.524] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:03.524] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:13:03.524] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:44.006] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:44.207] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:44.207] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:44.207] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:44.207] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:49.714] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:49.907] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:49.907] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:49.907] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:49.907] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:51.470] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:51.658] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:51.658] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:51.658] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:51.658] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:14:53.120] Browser LOG     play video 1
+[01:14:59.341] Browser LOG     play video 2
+[01:15:00.028] Browser LOG     play video 2
+[01:23:48.658] Browser LOG     play video 3
+[01:23:49.786] Browser LOG     play video 1
+[01:23:50.148] Browser LOG     play video 1
+[01:23:50.469] Browser LOG     play video 2
+[01:23:50.725] Browser LOG     play video 2
+[01:24:47.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:24:47.383] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:24:47.383] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:24:47.383] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:24:47.383] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[01:24:54.732] Browser LOG     play video 1
+[01:24:55.053] Browser LOG     play video 1
+[01:24:55.278] Browser LOG     play video 1
+[01:24:59.703] Browser LOG     play video 4
+[02:05:32.140] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:05:32.354] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:05:32.354] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:05:32.354] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:05:32.354] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:24:09.803] Browser LOG     play video 3
+[02:35:34.922] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:35:35.117] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:35:35.117] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:35:35.117] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:35:35.117] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:37:15.888] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -23,75 +252,395 @@
 
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+https://react.dev/link/hydration-mismatch
 
   ...
-    <LoadingBoundary name="landing/" loading={null}>
-      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-        <RedirectBoundary>
-          <RedirectErrorBoundary router={{...}}>
-            <InnerLayoutRouter url="/landing" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
-              <SegmentViewNode type="page" pagePath="(nondashbo...">
-                <SegmentTrieNode>
-                <LandingPage>
-                  <HeroCarousel>
-                  <ShopByCategory>
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(nondashbo...">
+                  <SegmentTrieNode>
                   <LandingPage>
+                    <HeroCarousel>
+                    <ShopByCategory>
                     <BestSellers>
-                      <section className="py-10 md:p...">
-                        <div className="max-w-7xl ...">
-                          <div>
-                          <div className="relative f...">
-                            <button>
-                            <div className="overflow-h...">
-                              <div className="flex trans..." style={{...}}>
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                                <div
-+                                 className={"\r\n                    flex-shrink-0\r\n                    w-[88%] xs..."}
--                                 className={"   flex-shrink-0   w-[88%] xs:w-[92%]   sm:w-1/2 lg:w-1/4   px-1.5 sm:p..."}
-                                >
-                            ...
-                  ...
+                    <LandingPage>
+                      <KnowYourProducts>
+                        <section className="py-8 md:py...">
+                          <div className="max-w-7xl ...">
+                            <div>
+                            <div className="relative f...">
+                              <Button>
+                              <div className="overflow-h...">
+                                <div className="flex trans..." style={{...}}>
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+                              ...
+                ...
               ...
-            ...
 
-[00:09:34.424] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:34.424] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:34.424] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:09:34.424] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:13:18.010] Browser WARN    Image with src "/product-1.jpg" has "fill" and a height value of 0. This is likely because the parent element of the image has not been styled to have a set height.
+[02:37:15.888] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:40:11.306] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(nondashbo...">
+                  <SegmentTrieNode>
+                  <LandingPage>
+                    <HeroCarousel>
+                    <ShopByCategory>
+                    <BestSellers>
+                    <LandingPage>
+                      <KnowYourProducts>
+                        <section className="py-8 md:py...">
+                          <div className="max-w-7xl ...">
+                            <div>
+                            <div className="relative f...">
+                              <Button>
+                              <div className="overflow-h...">
+                                <div className="flex trans..." style={{...}}>
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+                              ...
+                ...
+              ...
+
+[02:40:11.306] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:42:18.916] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(nondashbo...">
+                  <SegmentTrieNode>
+                  <LandingPage>
+                    <HeroCarousel>
+                    <ShopByCategory>
+                    <BestSellers>
+                    <LandingPage>
+                      <KnowYourProducts>
+                        <section className="py-8 md:py...">
+                          <div className="max-w-7xl ...">
+                            <div>
+                            <div className="relative f...">
+                              <Button>
+                              <div className="overflow-h...">
+                                <div className="flex trans..." style={{...}}>
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+                              ...
+                ...
+              ...
+
+[02:42:18.916] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:42:36.033] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(nondashbo...">
+                  <SegmentTrieNode>
+                  <LandingPage>
+                    <HeroCarousel>
+                    <ShopByCategory>
+                    <BestSellers>
+                    <LandingPage>
+                      <KnowYourProducts>
+                        <section className="py-8 md:py...">
+                          <div className="max-w-7xl ...">
+                            <div>
+                            <div className="relative f...">
+                              <Button>
+                              <div className="overflow-h...">
+                                <div className="flex trans..." style={{...}}>
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+                              ...
+                ...
+              ...
+
+[02:42:36.033] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:42:46.124] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(nondashbo...">
+                  <SegmentTrieNode>
+                  <LandingPage>
+                    <HeroCarousel>
+                    <ShopByCategory>
+                    <BestSellers>
+                    <LandingPage>
+                      <KnowYourProducts>
+                        <section className="py-8 md:py...">
+                          <div className="max-w-7xl ...">
+                            <div>
+                            <div className="relative f...">
+                              <Button>
+                              <div className="overflow-h...">
+                                <div className="flex trans..." style={{...}}>
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+                              ...
+                ...
+              ...
+
+[02:42:46.124] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:44:34.444] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="landing/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/landing" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                <SegmentViewNode type="page" pagePath="(nondashbo...">
+                  <SegmentTrieNode>
+                  <LandingPage>
+                    <HeroCarousel>
+                    <ShopByCategory>
+                    <BestSellers>
+                    <LandingPage>
+                      <KnowYourProducts>
+                        <section className="py-8 md:py...">
+                          <div className="max-w-7xl ...">
+                            <div>
+                            <div className="relative f...">
+                              <Button>
+                              <div className="overflow-h...">
+                                <div className="flex trans..." style={{...}}>
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+-                                 <div className="flex-shrink-0 w-full sm:w-1/2 lg:w-1/4 px-2">
+                              ...
+                ...
+              ...
+
+[02:44:34.444] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:46:21.277] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:46:21.470] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:46:21.470] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:46:21.470] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[02:46:21.470] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:18:28.741] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:18:28.743] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:18:28.750] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:18:28.868] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:18:28.876] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:18:32.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:18:32.338] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:18:32.338] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:18:32.338] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:18:32.338] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:18:34.743] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:18:34.744] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:18:34.745] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:18:34.745] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:18:34.746] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:19:10.040] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:19:10.255] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:19:10.255] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:19:10.255] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:19:10.255] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:19:15.640] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:19:15.641] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:19:15.642] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:19:15.643] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:19:15.643] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:19:39.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:19:42.810] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:19:42.994] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:19:42.994] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:19:42.994] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:19:42.994] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:20:37.667] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:20:37.669] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:20:37.674] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:20:37.758] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:20:37.759] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:23:04.956] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[03:23:04.956] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[03:23:04.956] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 3
+[03:23:04.956] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 4
+[03:23:04.956] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 5
+[03:23:04.956] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 6
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 3
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 4
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 5
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 6
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 3
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 4
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 5
+[03:23:05.578] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 6
+[03:23:05.605] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:23:05.607] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:23:05.608] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:23:05.609] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:23:05.611] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:23:05.841] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[03:23:05.841] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[03:23:05.841] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 3
+[03:23:05.841] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 4
+[03:23:05.841] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 5
+[03:23:05.841] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 6
+[03:23:06.369] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:23:06.370] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:23:06.371] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:23:06.372] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:23:06.372] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:23:06.373] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/et-logo.png" "received" null
+[03:23:15.328] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:23:15.607] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[03:23:15.607] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[03:23:15.607] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 3
+[03:23:15.607] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 4
+[03:23:15.607] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 5
+[03:23:15.607] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 6
+[03:23:15.607] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:15.607] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:15.607] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:15.607] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:15.783] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:23:15.784] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:23:15.785] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:23:15.785] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:23:15.786] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:23:15.787] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/et-logo.png" "received" null
+[03:23:25.070] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/et-logo.png" "received" null
+[03:23:25.088] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:23:25.109] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:23:25.187] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:23:25.203] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:23:25.224] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:23:25.595] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:23:25.856] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 1
+[03:23:25.856] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 2
+[03:23:25.856] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 3
+[03:23:25.856] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 4
+[03:23:25.856] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 5
+[03:23:25.856] Browser ERROR   Encountered two children with the same key, `%s`. Keys should be unique so that components maintain their identity across updates. Non-unique keys may cause children to be duplicated and/or omitted — the behavior is unsupported and could change in a future version. 6
+[03:23:25.856] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:25.856] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:25.856] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:23:25.856] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:25:17.054] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:25:17.055] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:25:17.060] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:25:17.144] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:25:17.145] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:25:17.152] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/et-logo.png" "received" null
+[03:25:20.171] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:25:20.235] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:25:20.236] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:25:20.237] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/et-logo.png" "received" null
+[03:25:20.320] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:25:20.321] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:25:20.738] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:25:20.957] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:25:20.957] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:25:20.957] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:25:20.957] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:23.954] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/dailyhunt-logo.png" "received" null
+[03:31:23.976] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/google-news-logo.png" "received" null
+[03:31:24.005] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/abp-news-logo.png" "received" null
+[03:31:24.093] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/et-logo.png" "received" null
+[03:31:24.108] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/ani-logo.png" "received" null
+[03:31:24.131] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/shark-tank-logo.png" "received" null
+[03:31:24.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:31:24.786] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:24.786] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:24.786] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:24.786] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:37.899] Server  ERROR    ⨯ "The requested resource isn't a valid image for" "/et-logo.png" "received" null
+[03:31:38.267] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:31:38.463] Browser WARN    Image with src "/hoora-logo.webp" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:38.463] Browser WARN    Image with src "/category-exterior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:38.463] Browser WARN    Image with src "/category-interior.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:38.463] Browser WARN    Image with src "/category-complete.jpg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[03:31:38.463] Browser WARN    Image with src "/google-news-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:38.463] Browser WARN    Image with src "/abp-news-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:38.463] Browser WARN    Image with src "/shark-tank-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:38.463] Browser WARN    Image with src "/ani-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:31:38.463] Browser WARN    Image with src "/dailyhunt-logo.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[03:38:34.631] Browser LOG     play video 1
